@@ -1,6 +1,7 @@
 #!/bin/bash
 
-API="http://localhost:4741"
+# API="http://localhost:4741" #original
+API="https://jokes-server.herokuapp.com" #my api
 URL_PATH="/jokes"
 
 curl "${API}${URL_PATH}" \

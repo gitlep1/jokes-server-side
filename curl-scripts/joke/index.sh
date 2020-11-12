@@ -1,6 +1,6 @@
 #!/bin/sh
 
-API="http://localhost:4741"
+API="https://jokes-server.herokuapp.com"
 URL_PATH="/jokes"
 
 curl "${API}${URL_PATH}" \
